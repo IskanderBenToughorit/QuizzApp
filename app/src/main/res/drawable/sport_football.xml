@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Ball circle -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:strokeColor="#263238"
+        android:strokeWidth="6"
+        android:pathData="M100,100 m-80,0 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" />
+    <!-- Center pentagon -->
+    <path
+        android:fillColor="#263238"
+        android:pathData="M100,70 L125,88 L115,118 L85,118 L75,88 Z" />
+    <!-- Lines to edges -->
+    <path
+        android:strokeColor="#263238"
+        android:strokeWidth="4"
+        android:pathData="M100,70 L100,20 M125,88 L170,75 M115,118 L150,160 M85,118 L50,160 M75,88 L30,75" />
+</vector>

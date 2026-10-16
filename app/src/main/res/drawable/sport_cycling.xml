@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Wheels -->
+    <path
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="8"
+        android:pathData="M50,130 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0" />
+    <path
+        android:strokeColor="#1E88E5"
+        android:strokeWidth="8"
+        android:pathData="M150,130 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0" />
+    <!-- Bicycle frame -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="6"
+        android:strokeLineJoin="round"
+        android:pathData="M50,130 L85,80 L130,80 L150,130 M85,80 L50,130 M85,80 L115,130 L150,130" />
+    <!-- Handlebar & Saddle -->
+    <path
+        android:strokeColor="#0D47A1"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M75,70 H95 M130,80 L138,65 H150" />
+</vector>

@@ -1,0 +1,25 @@
+# Gradle build outputs and caches
+.gradle/
+build/
+/build
+app/build/
+
+# Local configuration files (machine specific)
+local.properties
+
+# Android Studio / IntelliJ IDEA files
+.idea/workspace.xml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Native build outputs
+.externalNativeBuild
+.cxx/

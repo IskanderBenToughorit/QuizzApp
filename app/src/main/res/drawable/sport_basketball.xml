@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Basketball orange circle -->
+    <path
+        android:fillColor="#FF7043"
+        android:strokeColor="#D84315"
+        android:strokeWidth="6"
+        android:pathData="M100,100 m-80,0 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" />
+    <!-- Vertical line -->
+    <path
+        android:strokeColor="#263238"
+        android:strokeWidth="5"
+        android:pathData="M100,20 L100,180" />
+    <!-- Horizontal line -->
+    <path
+        android:strokeColor="#263238"
+        android:strokeWidth="5"
+        android:pathData="M20,100 L180,100" />
+    <!-- Left curve -->
+    <path
+        android:strokeColor="#263238"
+        android:strokeWidth="5"
+        android:pathData="M45,35 C75,70 75,130 45,165" />
+    <!-- Right curve -->
+    <path
+        android:strokeColor="#263238"
+        android:strokeWidth="5"
+        android:pathData="M155,35 C125,70 125,130 155,165" />
+</vector>
